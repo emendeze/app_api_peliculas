@@ -68,3 +68,22 @@ button:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#paginaActual {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
